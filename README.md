@@ -1,5 +1,6 @@
 # Baiting-Hackers-in-the-Cloud-Building-an-Azure-Honeynet
-Azure Honeynet Project
+
+## Architecture
 
 ![Untitled](https://github.com/user-attachments/assets/6a006964-3997-44ee-a11a-e241816960a4)
 
