@@ -69,12 +69,26 @@ Stop Time: 14/09/2025, 20:59 PM BST
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for an hour, but after we have applied security controls:
-Start Time: 14/09/2025, 22:30 PM BST
-Stop Time: 14/09/2025, 23:30 PM BST
+Start Time: 14/09/2025, 23:00 PM BST
+Stop Time: 15/09/2025, 00:00 PM BST
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 
-| Syslog                   | 25
+| SecurityEvent            | 17
+| Syslog                   | 41
 | SecurityIncident         | 0
 | NTANetAnalytics          | 0
+
+## Impact of Security Controls
+
+| Metric                   | Percentage Change
+| ------------------------ | -----
+| SecurityEvent            | -96.38%
+| Syslog                   | -97.56%
+| SecurityIncident         | -100%
+| AzureNetworkAnalytics_CL | -100%
+
+
+## Read the In-Depth Project Breakdown
+If you'd like to check out the in-depth project breakdown, check out my article:
+[Baiting Hackers in the Cloud: Building an Azure Honeynet](https://medium.com/@abdul.mannan1.am/baiting-hackers-in-the-cloud-building-an-azure-honeynet-fe8bfa80c1c1)
