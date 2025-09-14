@@ -1,0 +1,5 @@
+let startTime = datetime(2025-09-14 18:59:00);
+let endTime = datetime(2025-09-14 19:59:00);
+NTANetAnalytics
+| where TimeGenerated >= startTime and TimeGenerated <= endTime
+| count
